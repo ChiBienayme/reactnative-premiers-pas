@@ -42,7 +42,7 @@ export default function App() {
         <TouchableOpacity onPress={handlePress} style={styles.btn}>
 					<Text style={styles.btnText}>Click here!</Text>
 				</TouchableOpacity>
-        {showLoading && <ActivityIndicator size="large" />}
+        {showLoading && <ActivityIndicator size="large" color="#0000ff"/>}
       </View>
 		</ScrollView>
 	);
@@ -51,7 +51,7 @@ export default function App() {
 const styles = StyleSheet.create({
 	container: {
 		flex: 1,
-		backgroundColor: "yellow",
+		backgroundColor: "blue",
 	},
 	view: {
     backgroundColor: "white",
